@@ -9,7 +9,7 @@ When doing development, use `Gemfile.tip` to add gems you are playing around
 with, this is a Docker build optimization.  Once you've decided you want to use
 it, move it to the main `Gemfile`.
 
-A startup script is provided in `bin/startup.rb`
+A startup script is provided in `bin/start.rb`
 This script takes various arguments to make it easy to start different services
 within your app (e.g. Unicorn, Sidekiq).
 
